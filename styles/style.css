@@ -348,8 +348,6 @@ nav ul {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    max-width: 154px;
-    width: 100%;
 }
 
 .flash_sale_inside_content {
@@ -448,9 +446,19 @@ nav ul {
     }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 1310px) {
     .main_container {
         flex-direction: column;
+    }
+
+    .flash_sale_inside_content {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .flash_sale_item_discount_price {
+        display: inline;
     }
 
     .body_top_section {
@@ -504,7 +512,12 @@ nav ul {
         max-width: 100%;
     }
 
+    .flash_sale_inside_content {
+        flex-direction: column;
+    }
+
     .flash_sale_item_content {
+        width: 100%;
         gap: 16px;
     }
 
