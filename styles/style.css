@@ -348,6 +348,13 @@ nav ul {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    max-width: 154px;
+    width: 100%;
+}
+
+.flash_sale_inside_content {
+    display: flex;
+    gap: 12px;
 
 }
 
