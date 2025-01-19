@@ -440,13 +440,13 @@ nav ul {
 
 /* Media */
 
-@media (max-width: 1345px) {
+@media screen and (max-width: 1345px) {
     .main_container {
         gap: 20px;
     }
 }
 
-@media (max-width: 1310px) {
+@media screen and (max-width: 1310px) {
     .main_container {
         flex-direction: column;
     }
